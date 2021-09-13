@@ -15,7 +15,8 @@
     "prebuild-lambda": "yarn build",
     "build-lambda": "serverless package",
     "stryker-mutate": "stryker run",
-    "doc": "jsdoc ./src/**/*.js  -d ./docs -c ./jsdoc.conf.json"
+    "doc": "jsdoc ./src/**/*.js  -d ./docs -c ./jsdoc.conf.json",
+    "preinstall": "node preinstall.js"
   },
   "jest": {
     "verbose": true
